@@ -10,6 +10,9 @@ class myApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          title: const Text('My Card'),
+        ),
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column (
